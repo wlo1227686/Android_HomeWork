@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ex06_03</string>
+    <string name="logo">Logo</string>
+    <string name="news">news</string>
+    <string name="pets">pets</string>
+    <string name="house">house</string>
+    <string name="map">map</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ex06_01</string>
+    <string name="app_title">Please enter your information</string>
+    <string name="edt01_height">Height(cm)</string>
+    <string name="edt02_weight">Weight(kg)</string>
+    <string name="btn01_submit">submit</string>
+    <string name="btn02_back">back</string>
+    <string name="err_weight">體重錯誤</string>
+</resources>

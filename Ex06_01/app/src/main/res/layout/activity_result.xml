@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20sp"
+    tools:context="com.example.ntut.ex06_01.MainResult">
+
+    <android.widget.TextView
+        android:id="@+id/tv_result_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp" />
+
+    <android.widget.Button
+        android:id="@+id/btn02_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="back_onclick"
+        android:text="@string/btn02_back" />
+
+</android.widget.LinearLayout>
