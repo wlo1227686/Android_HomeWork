@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ex04_04</string>
+    <string name="first_title">please select the background color</string>
+    <string name="textid01">Red</string>
+    <string name="textid02">Green</string>
+    <string name="textid03">Blue</string>
+</resources>

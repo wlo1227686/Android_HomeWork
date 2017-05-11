@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ex05_04</string>
+    <string name="title_option_menu01">形狀</string>
+    <string name="title_option_menu02">顏色</string>
+    <string name="title_option_menu01_01">正方形</string>
+    <string name="title_option_menu01_02">圓形</string>
+    <string name="title_option_menu02_dialog_title">選擇顏色</string>
+</resources>
