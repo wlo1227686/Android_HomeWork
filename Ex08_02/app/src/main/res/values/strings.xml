@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Ex08_02</string>
+    <string name="text_Home">Home</string>
+    <string name="navigate_header_UserName">Bruce Lee</string>
+    <string name="navigate_header_Email">bruceLee@gmail.com</string>
+    <string name="fragment_BMI_Directions">Please enter your information</string>
+    <string name="fragment_BMI_Height">Height(cm)</string>
+    <string name="fragment_BMI_Weight">Weight(kg)</string>
+    <string name="fragment_BMI_Button_submit">submit</string>
+    <string name="fragment_result_bmi_button">Delete</string>
+    <string name="text_Result">Result</string>
+    <string name="text_Add">Add</string>
+    <string name="text_Open">Open</string>
+    <string name="text_Close">Close</string>
+    <string name="fragment_BMI_alert_tilte">Dangerous</string>
+    <string name="fragment_BMI_alert_message">Do you really want to delete this record?</string>
+    <string name="fragment_BMI_alert_text_Buttob_No">regret</string>
+    <string name="fragment_BMI_alert_text_Buttob_Yes">No regrets</string>
+    <string name="fragment_Result_BMI_data_HeightDifference_def">First</string>
+    <string name="text_Set">Set</string>
+    <string name="fragment_Send_Notification">Send Message</string>
+</resources>

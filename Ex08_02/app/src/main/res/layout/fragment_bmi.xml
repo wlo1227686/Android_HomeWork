@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/fragment_BMI_LinearLayout"
+    android:orientation="vertical"
+    android:padding="25sp"
+    android:layout_height="match_parent"
+    tools:context="com.example.chenfu.ex08_02.BMIFragment">
+    <android.widget.TextView
+        android:id="@+id/fragment_BMI_TextView_Directions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal"
+        android:text="@string/fragment_BMI_Directions"
+        android:textSize="20sp" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/fragment_BMI_TextInputLayout_Height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.widget.EditText
+            android:id="@+id/fragment_BMI_EditText_Height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10sp"
+            android:hint="@string/fragment_BMI_Height"
+            android:imeOptions="actionNext"
+            android:inputType="numberDecimal" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/fragment_BMI_TextInputLayout_Weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.widget.EditText
+            android:id="@+id/fragment_BMI_EditText_Weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/fragment_BMI_Weight"
+            android:imeOptions="actionDone"
+            android:inputType="numberDecimal" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.widget.Button
+        android:id="@+id/fragment_BMI_Button_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_BMI_Button_submit" />
+</android.widget.LinearLayout>
