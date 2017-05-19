@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ex10_02</string>
+    <string name="button_search">search</string>
+    <string name="button_direct">direct</string>
+    <string name="editText_hint">where?</string>
+    <string name="msg_LocationNameNotFound">Not Find !!</string>
+    <string name="text_ShouldGrant">Permission to access location should be granted</string>
+    <string name="premission_not_get">Not Get Premission</string>
+</resources>
